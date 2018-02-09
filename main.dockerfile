@@ -1,5 +1,5 @@
 FROM akiyamam/slack_downloader-base:0.1
-MAINTAINER akyamam
+MAINTAINER akiyamam
 
 WORKDIR /usr/local/app
 ADD Pipfile.lock .
