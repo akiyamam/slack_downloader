@@ -4,5 +4,3 @@ MAINTAINER akiyamam
 WORKDIR /usr/local/app
 ADD Pipfile.lock .
 RUN pipenv install --ignore-pipfile -d
-
-
