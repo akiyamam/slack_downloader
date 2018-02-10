@@ -7,10 +7,14 @@ name = "pypi"
 
 [packages]
 
+slackclient = "*"
 
 
 [dev-packages]
 
+isort = "*"
+"flake8" = "*"
+pycodestyle = "*"
 
 
 [requires]
